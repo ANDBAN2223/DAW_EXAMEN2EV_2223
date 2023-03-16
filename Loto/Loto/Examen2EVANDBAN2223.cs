@@ -66,7 +66,7 @@ namespace ExamenLoto
 
         private int[] LeerCombinaciones()
         {
-            int[] nums = new int[6];
+            int[] nums = new int[MAX_NUMEROS];
             for (int i = 0; i < MAX_NUMEROS; i++)
                 nums[i] = Convert.ToInt32(combinacion[i].Text);
             miLoto = new Loto(nums);
