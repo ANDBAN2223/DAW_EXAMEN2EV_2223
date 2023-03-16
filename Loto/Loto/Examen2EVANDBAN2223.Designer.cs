@@ -104,7 +104,7 @@
             this.btGenerar.TabIndex = 6;
             this.btGenerar.Text = "Generar combinación";
             this.btGenerar.UseVisualStyleBackColor = true;
-            this.btGenerar.Click += new System.EventHandler(this.btGenerar_Click);
+            this.btGenerar.Click += new System.EventHandler(this.Generar_Click);
             // 
             // btComprobar
             // 
@@ -115,7 +115,7 @@
             this.btComprobar.TabIndex = 7;
             this.btComprobar.Text = "Comprobar combinación";
             this.btComprobar.UseVisualStyleBackColor = true;
-            this.btComprobar.Click += new System.EventHandler(this.btComprobar_Click);
+            this.btComprobar.Click += new System.EventHandler(this.Comprobar_Click);
             // 
             // btValidar
             // 
@@ -126,7 +126,7 @@
             this.btValidar.TabIndex = 8;
             this.btValidar.Text = "Validar combinación";
             this.btValidar.UseVisualStyleBackColor = true;
-            this.btValidar.Click += new System.EventHandler(this.btValidar_Click);
+            this.btValidar.Click += new System.EventHandler(this.Validar_Click);
             // 
             // label1
             // 

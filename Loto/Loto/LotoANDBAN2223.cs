@@ -90,7 +90,8 @@ namespace LotoClassNS
             int aciertos = 0;
             for (int i = 0; i < MAX_NUMEROS; i++)
                 for (int j = 0; j < MAX_NUMEROS; j++)
-                    if (premi[i] == Nums[j]) aciertos++;
+                    if (premi[i] == Nums[j]) 
+                        aciertos++;
             return aciertos;
         }
     }
